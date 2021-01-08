@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_contact_category_contacts",
+  "info": {
+    "name": "contact",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    }
+  }
+}

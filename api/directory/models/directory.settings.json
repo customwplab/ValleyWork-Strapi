@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "directories",
+  "info": {
+    "name": "directory",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "map": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-category.contact"
+    }
+  }
+}
