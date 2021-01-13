@@ -23,9 +23,6 @@
       "plugin": "upload",
       "required": false
     },
-    "aboveTheFold": {
-      "type": "text"
-    },
     "fold_image": {
       "model": "file",
       "via": "related",
@@ -35,14 +32,17 @@
       "plugin": "upload",
       "required": false
     },
-    "belowTheFold": {
-      "type": "text"
-    },
     "order": {
       "type": "integer"
     },
     "excerpt": {
       "type": "text"
+    },
+    "aboveTheFold": {
+      "type": "richtext"
+    },
+    "belowTheFold": {
+      "type": "richtext"
     }
   }
 }
